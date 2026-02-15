@@ -1,11 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FFF7ED;
-  --foreground: #1C1917;
-  --primary: #15803D;
-  --secondary: #7C2D12;
-  --accent: #FACC15;
+  --background: #F0F9FF;
+  /* Sky 50 */
+  --foreground: #1E293B;
+  /* Slate 800 */
+  --primary: #2563EB;
+  /* Blue 600 */
+  --secondary: #1E3A8A;
+  /* Blue 900 */
+  --accent: #38BDF8;
+  /* Sky 400 */
 }
 
 @theme inline {
@@ -21,4 +26,3 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-

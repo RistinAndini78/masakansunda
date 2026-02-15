@@ -18,7 +18,7 @@ export default function RecipeCard({ recipe }) {
     };
 
     return (
-        <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 transform border border-orange-100">
+        <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 transform border border-blue-100">
             <div className="relative h-48 w-full">
                 <Image
                     src={recipe.image}
@@ -58,7 +58,7 @@ export default function RecipeCard({ recipe }) {
 
                 <p className="text-gray-600 text-sm mb-4 line-clamp-2 min-h-[40px]">{recipe.description}</p>
 
-                <div className="flex items-center justify-between text-sm text-gray-500 mb-4 bg-orange-50 p-2 rounded-lg">
+                <div className="flex items-center justify-between text-sm text-gray-500 mb-4 bg-blue-50 p-2 rounded-lg">
                     <span className="flex items-center gap-1">
                         <ClockIcon className="w-4 h-4" />
                         {recipe.prepTimeMinutes + recipe.cookTimeMinutes} mnt
@@ -71,7 +71,7 @@ export default function RecipeCard({ recipe }) {
 
                 <Link
                     href={`/resep/${recipe.id}`}
-                    className="block w-full text-center bg-primary text-white font-semibold py-2 rounded-lg hover:bg-green-700 transition-colors"
+                    className="block w-full text-center bg-primary text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition-colors"
                 >
                     Lihat Detail
                 </Link>

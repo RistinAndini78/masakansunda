@@ -53,7 +53,7 @@ export default function Search() {
     return (
         <Layout title="Cari Resep - Dapur Sunda">
             {/* CSR Indicator */}
-            <div className="fixed bottom-4 right-4 bg-orange-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg z-50">
+            <div className="fixed bottom-4 right-4 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg z-50">
                 CSR (Client Side Rendering)
             </div>
 

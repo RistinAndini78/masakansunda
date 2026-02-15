@@ -72,7 +72,7 @@ export default function Navbar() {
                                 className={clsx(
                                     "block py-2 text-lg font-medium border-l-4 pl-3",
                                     router.pathname === link.href
-                                        ? "text-primary border-primary bg-green-50"
+                                        ? "text-primary border-primary bg-blue-50"
                                         : "text-gray-600 border-transparent hover:bg-gray-50 hover:text-primary"
                                 )}
                             >

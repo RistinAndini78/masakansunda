@@ -25,7 +25,7 @@ export default function Favorites() {
                 <div className="text-center py-20 bg-white rounded-xl shadow-sm border border-gray-100">
                     <h2 className="text-2xl font-semibold text-gray-400 mb-4">Belum ada resep favorit.</h2>
                     <p className="text-gray-500 mb-8">Jelajahi resep kami dan simpan yang Anda suka!</p>
-                    <a href="/resep" className="bg-primary text-white px-6 py-3 rounded-full font-bold hover:bg-green-700 transition">
+                    <a href="/resep" className="bg-primary text-white px-6 py-3 rounded-full font-bold hover:bg-blue-700 transition">
                         Jelajahi Resep
                     </a>
                 </div>

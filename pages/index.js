@@ -13,7 +13,7 @@ export default function Home({ featuredRecipes }) {
 
       {/* Hero Section */}
       <section className="text-center mb-16 py-12 relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-orange-100 to-green-100 opacity-50 rounded-3xl -z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-100 to-blue-200 opacity-50 rounded-3xl -z-10"></div>
         <h1 className="text-4xl md:text-6xl font-extrabold text-secondary mb-4 tracking-tight">
           Jelajahi Cita Rasa <br />
           <span className="text-primary">Masakan Khas Sunda</span>
@@ -23,7 +23,7 @@ export default function Home({ featuredRecipes }) {
         </p>
         <Link
           href="/resep"
-          className="inline-block bg-primary text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-green-700 hover:shadow-xl transition-all hover:-translate-y-1"
+          className="inline-block bg-primary text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all hover:-translate-y-1"
         >
           Lihat Semua Resep
         </Link>
@@ -35,7 +35,7 @@ export default function Home({ featuredRecipes }) {
           <h2 className="text-3xl font-bold text-gray-800 border-l-4 border-primary pl-4">
             Resep Pilihan
           </h2>
-          <Link href="/resep" className="text-primary hover:text-green-700 font-semibold hidden md:block">
+          <Link href="/resep" className="text-primary hover:text-blue-700 font-semibold hidden md:block">
             Lihat Lainnya &rarr;
           </Link>
         </div>
@@ -47,7 +47,7 @@ export default function Home({ featuredRecipes }) {
         </div>
 
         <div className="mt-8 text-center md:hidden">
-          <Link href="/resep" className="text-primary hover:text-green-700 font-semibold">
+          <Link href="/resep" className="text-primary hover:text-blue-700 font-semibold">
             Lihat Lainnya &rarr;
           </Link>
         </div>

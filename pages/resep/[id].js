@@ -57,23 +57,23 @@ export default function RecipeDetail({ recipe }) {
 
                 <div className="p-8 md:p-12 grid grid-cols-1 lg:grid-cols-3 gap-12">
                     <div className="lg:col-span-2 space-y-8">
-                        <div className="flex justify-between items-center bg-orange-50 p-6 rounded-xl border border-orange-100">
+                        <div className="flex justify-between items-center bg-blue-50 p-6 rounded-xl border border-blue-100">
                             <div className="text-center">
                                 <ClockIcon className="w-8 h-8 text-primary mx-auto mb-2" />
                                 <p className="text-xs text-gray-500 uppercase font-bold">Waktu</p>
                                 <p className="font-bold text-gray-800">{recipe.prepTimeMinutes + recipe.cookTimeMinutes} mnt</p>
                             </div>
-                            <div className="text-center border-l border-orange-200 pl-6">
-                                <FireIcon className="w-8 h-8 text-orange-500 mx-auto mb-2" />
+                            <div className="text-center border-l border-blue-200 pl-6">
+                                <FireIcon className="w-8 h-8 text-blue-500 mx-auto mb-2" />
                                 <p className="text-xs text-gray-500 uppercase font-bold">Kesulitan</p>
                                 <p className="font-bold text-gray-800">{recipe.difficulty}</p>
                             </div>
-                            <div className="text-center border-l border-orange-200 pl-6">
+                            <div className="text-center border-l border-blue-200 pl-6">
                                 <StarIcon className="w-8 h-8 text-yellow-500 mx-auto mb-2" />
                                 <p className="text-xs text-gray-500 uppercase font-bold">Rating</p>
                                 <p className="font-bold text-gray-800">{recipe.rating} / 5</p>
                             </div>
-                            <div className="text-center border-l border-orange-200 pl-6">
+                            <div className="text-center border-l border-blue-200 pl-6">
                                 <UserGroupIcon className="w-8 h-8 text-blue-500 mx-auto mb-2" />
                                 <p className="text-xs text-gray-500 uppercase font-bold">Porsi</p>
                                 <p className="font-bold text-gray-800">{recipe.servings} Org</p>
@@ -112,8 +112,8 @@ export default function RecipeDetail({ recipe }) {
                             <button
                                 onClick={toggleFavorite}
                                 className={`w-full py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all ${favored
-                                        ? 'bg-red-100 text-red-600 hover:bg-red-200'
-                                        : 'bg-primary text-white hover:bg-green-700 shadow-lg hover:shadow-xl'
+                                    ? 'bg-red-100 text-red-600 hover:bg-red-200'
+                                    : 'bg-primary text-white hover:bg-blue-700 shadow-lg hover:shadow-xl'
                                     }`}
                             >
                                 {favored ? (

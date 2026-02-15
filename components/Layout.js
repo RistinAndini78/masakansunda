@@ -9,7 +9,7 @@ export default function Layout({ children, title = "Dapur Sunda - Masakan Khas" 
                 <meta name="description" content="Platform Resep Masakan Khas Sunda" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className="min-h-screen bg-orange-50/30 flex flex-col">
+            <div className="min-h-screen bg-blue-50/30 flex flex-col">
                 <Navbar />
                 <main className="flex-grow pt-20 pb-10">
                     <div className="max-w-6xl mx-auto px-6 py-8">

@@ -234,6 +234,177 @@ export const sundaRecipes = [
             "Nikmati bersama nasi hangat dan lauk pauk lainnya."
         ],
         tags: ["Side Dish", "Traditional", "Spicy"]
+    },
+    {
+        originalId: 7,
+        name: "Nasi Tutug Oncom",
+        description: "Nasi hangat yang diaduk dengan oncom bakar berbumbu kencur, aroma khas yang menggugah selera.",
+        image: "/images/tutug-concom.jpeg",
+        difficulty: "Medium",
+        prepTimeMinutes: 20,
+        cookTimeMinutes: 15,
+        rating: 4.8,
+        servings: 4,
+        ingredients: [
+            "2 papan oncom merah, bakar sebentar",
+            "4 porsi nasi putih hangat",
+            "5 cm kencur",
+            "5 butir bawang merah",
+            "3 siung bawang putih",
+            "5 buah cabai rawit merah (atau sesuai selera)",
+            "1 sdt garam",
+            "1/2 sdt gula pasir",
+            "1 sdt kaldu jamur",
+            "Pelengkap: Ikan asin, tahu/tempe goreng, sambal, lalapan"
+        ],
+        instructions: [
+            "Bakar oncom di atas kompor atau teflon hingga agak kering dan wangi, jangan sampai gosong. Hancurkan kasar.",
+            "Haluskan bumbu: kencur, bawang merah, bawang putih, cabai rawit, garam, dan gula.",
+            "Tumis bumbu halus dengan sedikit minyak hingga harum dna matang.",
+            "Masukkan oncom yang sudah dihancurkan, aduk rata dengan bumbu. Sangrai sebentar agar bumbu meresap dan agak kering.",
+            "Siapkan nasi hangat dalam wadah besar.",
+            "Campurkan tumisan oncom ke dalam nasi, aduk hingga tercampur rata (ditutug).",
+            "Sajikan hangat dengan pelengkap ikan asin, tahu tempe, dan sambal."
+        ],
+        tags: ["Main Course", "Traditional", "Rice"]
+    },
+    {
+        originalId: 8,
+        name: "Karedok Leunca",
+        description: "Varian karedok khas Sunda yang menggunakan leunca (ranti) sebagai bahan utama, rasa pahit segar yang unik.",
+        image: "/images/karedok-leunca.jpeg",
+        difficulty: "Easy",
+        prepTimeMinutes: 15,
+        cookTimeMinutes: 0,
+        rating: 4.7,
+        servings: 3,
+        ingredients: [
+            "150 gram leunca, petiki kuntumnya",
+            "Segenggam daun kemangi",
+            "Bumbu:",
+            "3 cm kencur",
+            "1 siung bawang putih",
+            "4 buah cabai rawit merah",
+            "1 sdt terasi bakar",
+            "1 sdt gula merah",
+            "1/2 sdt garam",
+            "Air asam jawa secukupnya"
+        ],
+        instructions: [
+            "Cuci bersih leunca dan kemangi, tiriskan.",
+            "Siapkan cobek. Ulek kencur, bawang putih, cabai, terasi, gula merah, dan garam hingga halus.",
+            "Tambahkan sedikit air asam jawa untuk melarutkan bumbu (buat agak kental).",
+            "Masukkan leunca ke dalam cobek, ulek kasar (asal pecah, jangan sampai hancur total).",
+            "Masukkan daun kemangi, aduk rata dengan sendok.",
+            "Sajikan segera sebagai pendamping nasi hangat dan ikan asin."
+        ],
+        tags: ["Side Dish", "Traditional", "Vegetarian"]
+    },
+    {
+        originalId: 9,
+        name: "Tumis Kangkung Terasi",
+        description: "Sayur kangkung segar yang ditumis cepat dengan bumbu terasi, sederhana namun sangat nikmat.",
+        image: "/images/kangkung.jpg",
+        difficulty: "Easy",
+        prepTimeMinutes: 10,
+        cookTimeMinutes: 5,
+        rating: 4.6,
+        servings: 3,
+        ingredients: [
+            "2 ikat kangkung, petiki",
+            "3 siung bawang merah, iris tipis",
+            "2 siung bawang putih, iris tipis",
+            "2 buah cabai merah besar, iris serong",
+            "1 sdt terasi bakar",
+            "1 sdm saus tiram",
+            "1/2 sdt garam",
+            "1/2 sdt gula pasir",
+            "Minyak untuk menumis"
+        ],
+        instructions: [
+            "Cuci bersih kangkung, tiriskan.",
+            "Panaskan minyak, tumis bawang merah dan bawang putih hingga harum.",
+            "Masukkan cabai merah dan terasi, aduk hingga terasi hancur dan wangi.",
+            "Besarkan api, masukkan kangkung. Aduk cepat.",
+            "Tambahkan saus tiram, garam, dan gula. Masak sebentar saja agar kangkung tetap hijau dan renyah (sekitar 1-2 menit).",
+            "Angkat dan sajikan selagi panas."
+        ],
+        tags: ["Side Dish", "Vegetarian", "Quick"]
+    },
+    {
+        originalId: 10,
+        name: "Soto Bandung",
+        description: "Soto daging sapi berkuah bening dengan irisan lobak putih dan kedelai goreng, segar dan gurih.",
+        image: "/images/soto-bandung.jpg",
+        difficulty: "Medium",
+        prepTimeMinutes: 30,
+        cookTimeMinutes: 90,
+        rating: 4.8,
+        servings: 5,
+        ingredients: [
+            "500 gram daging sapi (sandung lamur)",
+            "2 liter air",
+            "2 buah lobak putih, iris tipis dan rebus sebentar",
+            "100 gram kacang kedelai, rendam dan goreng kering",
+            "2 batang serai, memarkan",
+            "2 lembar daun salam",
+            "2 cm jahe, geprek",
+            "Bumbu Halus:",
+            "8 butir bawang merah",
+            "4 siung bawang putih",
+            "1 sdt merica butiran",
+            "Garam dan kaldu sapi secukupnya",
+            "Pelengkap: Seledri, bawang goreng, jeruk nipis, sambal"
+        ],
+        instructions: [
+            "Rebus daging sapi dalam air mendidih. Buang buih yang mengapung. Masak hingga daging empuk (bisa presto 30 menit).",
+            "Potong-potong daging sesuai selera, masukkan kembali ke kuah kaldu.",
+            "Tumis bumbu halus bersama serai, daun salam, dan jahe hingga harum.",
+            "Masukkan tumisan bumbu ke dalam panci kuah daging. Aduk rata.",
+            "Bumbui dengan garam dan kaldu sapi. Masak hingga bumbu meresap.",
+            "Masukkan irisan lobak yang sudah direbus, masak sebentar.",
+            "Sajikan soto dalam mangkuk, taburi dengan kacang kedelai goreng, seledri, dan bawang goreng."
+        ],
+        tags: ["Soup", "Main Course", "Traditional"]
+    },
+    {
+        originalId: 11,
+        name: "Empal Gentong",
+        description: "Soto daging bersantan khas Cirebon yang dimasak dalam gentong tanah liat, kaya rempah.",
+        image: "/images/empal-gentong.jpg",
+        difficulty: "Hard",
+        prepTimeMinutes: 40,
+        cookTimeMinutes: 120,
+        rating: 4.9,
+        servings: 6,
+        ingredients: [
+            "500 gram daging sapi + jeroan (babat/usus) rebus matang",
+            "1,5 liter santan sedang",
+            "2 batang serai",
+            "3 lembar daun salam",
+            "4 lembar daun jeruk",
+            "3 cm lengkuas, geprek",
+            "3 butir cengkeh",
+            "2 cm kayu manis",
+            "Bumbu Halus:",
+            "10 butir bawang merah",
+            "5 siung bawang putih",
+            "4 butir kemiri",
+            "3 cm kunyit",
+            "1 sdt ketumbar",
+            "1/2 sdt jintan",
+            "Garam dan gula secukupnya",
+            "Kucai iris dan cabai bubuk untuk taburan"
+        ],
+        instructions: [
+            "Tumis bumbu halus bersama serai, daun salam, daun jeruk, lengkuas, cengkeh, dan kayu manis hingga matang dan berminyak.",
+            "Masukkan daging dan jeroan yang sudah dipotong dadu. Aduk rata.",
+            "Tuangkan santan perlahan sambil diaduk agar tidak pecah.",
+            "Masak dengan api kecil hingga bumbu meresap dan daging sangat empuk.",
+            "Koreksi rasa dengan garam dan gula.",
+            "Sajikan panas dengan taburan kucai iris dan bubuk cabai kering."
+        ],
+        tags: ["Soup", "Main Course", "Rich"]
     }
 ];
 
